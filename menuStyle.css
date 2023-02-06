@@ -1,0 +1,135 @@
+body{
+	background-image:url(kj.jpg);
+}
+ul#menubar{
+	list-style-type: none;
+
+	overflow:hidden;
+	margin:.5em;
+	padding: .5em px; 
+	text-align:center;
+}
+
+
+header{
+	
+	
+	color:black;
+	padding:0.5em;
+	text-align:center;
+	margin:0.5em;
+
+
+}
+nav{
+	
+	float:left;
+	clear:both;
+	background-image:url(kj.jpg);
+
+	max-width:150px;
+}
+
+nav ul{
+	list-style-type:circle;
+	
+	
+
+}
+
+nav ul li a {
+text-decoration:none;
+color:white;
+}
+
+nav ul li a:hover {
+
+color:blue;
+}
+
+nav ul li ul{
+	position:absolute;
+	left:-99999px;
+}
+
+nav ul li:hover ul{
+	left:0px;
+}
+nav ul li ul{
+	background:#008B8B;
+	
+}
+
+nav ul li ul li{
+	list-style-type:none;
+	float:none;
+	width150px;
+	border-bottom: 1px solid #008B8B;
+	border-right:0px solid;
+	border-left:0px solid;
+}
+nav ul li ul li:last-child {
+	border-bottom: 0px solid #808080;
+}
+nav ul li ul li a{
+	background:#20B2AA;
+	color:#fff;
+	padding:5px 15px;
+}
+
+li{
+	float: right-top;
+}
+
+li a{
+	
+	text-decoration:none;
+	padding:25px;
+
+	display:block;
+
+}
+
+li a:hover {
+	
+
+	color: red;
+	
+	
+}
+
+
+h2 {
+	
+	color:green;
+}
+p {
+	
+	color:black;
+}
+article{
+	margin-left:170px;
+	border:left 1px solid red;
+	padding:1em;
+}
+
+#search{
+	width:500px;
+	margin-left:300px;
+	padding:7px;
+	border:2px solid #333;
+	
+}
+#submit{
+	padding:7px;
+	background-color:green;
+}
+
+form p{
+	margin-left:440px;
+	padding:7px;
+}
+	
+
+
+

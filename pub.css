@@ -1,0 +1,42 @@
+body{
+	background-image: url(p.jpg);
+
+	background-position:center;
+
+}
+ul#menubar{
+	list-style-type: none;
+  
+	overflow:hidden;
+	margin:0px;
+	padding: 0 px; 
+}
+
+
+
+li{
+	float: left;
+
+}
+
+li a{
+	
+	text-decoration:underline;
+	padding:30px;
+    color:white;
+	display:block;
+
+}
+li a:hover {
+	
+	background-color:white;
+	color: green;
+	
+	
+}
+article{
+margin-left:40px;
+	border:left 1px solid red;
+	padding:2em;
+	color:	black;
+}

@@ -1,0 +1,51 @@
+body{
+	background-image: url(d3.jpg);
+
+	background-position:center;
+}
+ul#menubar{
+	list-style-type: none;
+  
+	overflow:hidden;
+	margin-left:80px;
+	padding: 0 px; 
+}
+
+
+
+li{
+	float: left;
+
+}
+
+li a{
+	
+	text-decoration:underline;
+	padding:20px;
+    color:black;
+	display:block;
+
+}
+li a:hover {
+	
+	background-color:green;
+	color: silver;
+	
+	
+}
+
+article{
+margin-left:85px;
+	border:left 1px solid red;
+	padding:2em;
+	color:#800000;
+
+}
+article h1{
+	margin-left:450px;
+	text-decoration:underline;
+}
+
+article img{
+	margin-left:330px;
+}
